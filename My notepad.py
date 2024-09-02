@@ -12,7 +12,7 @@ class Notepad(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle('My Notepad')
-        self.resize(300, 260)
+        self.resize(400, 360)
         
         # self.text_edit = QTextEdit()
         self.text_edit = QPlainTextEdit()
